@@ -1,5 +1,5 @@
 {
-	"name": "WatermarkTable",
+	"name": "WatermarkDataset",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureSqlDatabase1",
