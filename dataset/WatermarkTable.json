@@ -1,24 +1,16 @@
 {
-	"name": "AzureSqlTable1",
+	"name": "WatermarkTable",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureSqlDatabase1",
 			"type": "LinkedServiceReference"
-		},
-		"parameters": {
-			"SinkTableName": {
-				"type": "string"
-			}
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": {
-				"value": "@dataset().SinkTableName",
-				"type": "Expression"
-			}
+			"table": "watermarktable"
 		}
 	}
 }
