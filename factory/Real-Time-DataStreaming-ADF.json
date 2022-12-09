@@ -1,0 +1,9 @@
+{
+	"name": "Real-Time-DataStreaming-ADF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b19f27f9-c644-4d77-af64-c1416600f69f",
+		"tenantId": "90d12e33-ad5e-4e82-8b5e-82bff0658ae0"
+	}
+}
